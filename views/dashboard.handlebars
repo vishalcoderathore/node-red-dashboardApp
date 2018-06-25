@@ -1,0 +1,17 @@
+<!--
+    Render iFrame for the Node Red UI
+
+<script language="Javascript">
+    document.getElementById('frameDiv').setAttribute('class', 'embed-responsive embed-responsive-16by9');
+window.onload = function() {
+    var iframe = document.createElement('iframe');
+    iframe.src = 'http://localhost:1880/users/api/ui/';
+    iframe.class = 'embed-responsive-item';
+    document.getElementById('frameDiv').appendChild(iframe);
+}
+</script>
+
+-->
+
+<script language=javascript>document.write(unescape('%3Cscript%20language%3D%22Javascript%22%3E%0A%20%20%20%20document.getElementById%28%27frameDiv%27%29.setAttribute%28%27class%27%2C%20%27embed-responsive%20embed-responsive-16by9%27%29%3B%0Awindow.onload%20%3D%20function%28%29%20%7B%0A%20%20%20%20var%20iframe%20%3D%20document.createElement%28%27iframe%27%29%3B%0A%20%20%20%20iframe.src%20%3D%20%27http%3A//localhost%3A1880/users/api/ui/%27%3B%0A%20%20%20%20iframe.class%20%3D%20%27embed-responsive-item%27%3B%0A%20%20%20%20document.getElementById%28%27frameDiv%27%29.appendChild%28iframe%29%3B%0A%7D%0A%3C/script%3E'))</script>
+

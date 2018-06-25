@@ -1,0 +1,29 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "main": "app.js",
+    "dependencies": {
+        "bcryptjs": "*",
+        "body-parser": "*",
+        "connect-flash": "*",
+        "cookie-parser": "^1.4.1",
+        "dotenv": "^6.0.0",
+        "express": "*",
+        "express-handlebars": "*",
+        "express-messages": "*",
+        "express-mysql-session": "^1.3.0",
+        "express-session": "*",
+        "express-validator": "*",
+        "mongodb": "*",
+        "mongoose": "*",
+        "mysql": "^2.15.0",
+        "netstat": "0.0.2",
+        "node-red": "*",
+        "node-red-dashboard": "~2.9.4",
+        "passport": "*",
+        "passport-http": "*",
+        "passport-local": "*",
+        "socket.io": "^2.1.1"
+    }
+}

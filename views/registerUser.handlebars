@@ -1,0 +1,41 @@
+<div class="card ">
+  <div class="card-header text-center">
+    <h2>Register New User</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card-body">
+        <img src="/images/Node-red-icon.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <form method="post" action="/users/registerUser">
+            <div class="form-group">
+          <label class="card-title">Username</label>
+          <input type="text" class="form-control" name="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label>Confirm Password</label>
+          <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-outline-info">Submit</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+<div class="card-footer text-muted text-center">
+    Register now to access your Node flows
+</div>
+</div>
+
+
+<script>
+ document.getElementById('navRegister').classList.add('active');
+</script>  
